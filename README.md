@@ -1,4 +1,4 @@
-# React-structure for me  
+# React-Router
 
 Practice for using React.js's react-router-dom module.  
 URL parameter and Redirect etc...  
