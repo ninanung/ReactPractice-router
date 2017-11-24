@@ -1,6 +1,8 @@
 # React-structure for me  
-Using React.js for front-end  
-Using Webpack for server  
-Using Babel for jsx  
 
-Everyting on Node.js
+Practice for using React.js's react-router-dom module.  
+URL parameter and Redirect etc...  
+
+Still making. Still practicing.  
+
+Will put some images for this later.  
