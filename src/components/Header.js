@@ -18,12 +18,13 @@ const menu = {
 };
 
 const menuItem = {
-    display: "inline-block",
+    display: "table",
     color: "white",
     fontSize: "1rem",
     lineHeight: "3.5rem",
-    width: "33.3333%",
+    width: "100%",
     textAlign: "center",
+    tableLayout: "fixed",
     cursor: "pointer",
     transition: "background-color 0.3s",
     textDecoration: "none"
@@ -48,6 +49,8 @@ class Header extends React.Component {
                     <Link style={ menuItem } to="/">홈</Link>
                     <Link style={ menuItem } to="/about/ninanung">소개</Link>
                     <Link style={ menuItem } to="/posts">포스트</Link>
+                    <Link style={ menuItem } to="/login">로그인</Link>
+                    <Link style={ menuItem } to="/me">나의 페이지</Link>
                 </div>
             </div>
         );
